@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<h1>De mooiste stadions</h1>
+<ul type="list-style-type: disc">
+  <li><a href="index.html">Home</a></li> <li><a href="NLC2.html">Nederlandse competitie</a></li><li><a href="TC2.html">Top clubs</a></li><li><a href="Stadions2.html"> Stadions</a></li><li><a href="Iconen2.html">Iconen</a></li>
+  <li><a href="LW2.html">Leuke weetjes</a></li><li><a href="shirts2.html">Mooiste shirts</a></li><li><a href="UCL2.html">UCL/UEL/UECL</a></li><li><a href="ballon2.html">Ballon d'or</a></li><li><a href="bc3.html">Buitenlandse competities</a></li>
+    <li><a href="LIKE2.html">Over ons & extra's</a></li>
+ </ul>
+  </ul>
+    <h2>Hier een lijstje met de vijftien mooiste stadions in de werled naar onze mening.</h2>
+    <article> We vondne het lastig om een goede lijst te maken, omdat er erg veel dingen zijn om op te letten. Het gaat niet alleen om de uitstraling van het stadion, maar ook om de historische en publieke waarde. Wij hebben geprobeerd te beoordelen op vier punten: 1. De uitstraling, 2. De historische waarde, 3. De publieke waarde en tenstollte 4. De ligging. Ook heeft elk stadion in de lijst iets speciaals.</article>
+
+    <div class="Lijstje">
+    <dl>
+      <dt>1. Stadion Feyenoord De Kuip</dt>
+        <dd>- Feyenoord, Nederland</dd>
+      <dt>2. Grbavica Stadium</dt>
+        <dd>- FK Zeljeznicar, Bosnië</dd>
+      <dt>3. Anfield</dt>
+        <dd>- Liverpool, Engeland</dd>
+      <dt>4. La Bombonera</dt>
+        <dd>- Boca Juniors, Argentinië </dd>
+      <dt>5. The Oval</dt>
+        <dd>- Glentoran FC, Noord-Ierland </dd>
+      <dt>6. Signal Iduna Park</dt>
+        <dd>- Borussia Dortmund, Duitsland</dd>
+      <dt>7. Celtic Park</dt>
+        <dd>- Celtic, Schotland</dd>
+      <dt>8. Camp Nou</dt>
+        <dd>- Fc Barcelona, Spanje</dd>
+      <dt>9. Old Trafford</dt>
+        <dd>- Manchester United, Engeland</dd>
+      <dt>10. San Siro / Giuseppe Meazza</dt>
+        <dd>- AC Milan / Internationale, Italië</dd>
+      <dt>11. Craven Cottage</dt>
+        <dd>- Fulham, Engeland</dd>
+      <dt>12. De Adelaarshorst </dt>
+        <dd>- Go Ahead Eagles </dd>
+      <dt>13. Estadio Mestalla</dt>
+        <dd>- Valencia, Spanje </dd>
+      <dt>14. Wembley </dt>
+        <dd>- Nationale Engelse team, Engeland</dd>
+      <dt>15. Santiago Bernabéu</dt>
+        <dd>- Real Madrid, Spanje</dd>
+          <b>Onze mening</b>
+</div>
+
+  <div class="picture"
+        <div class="slideshow-container">
+
+
+        <div class="mySlides fade">
+
+          <img src="https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHNvY2NlciUyMHN0YWRpdW1zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" style="width: 65%;">
+
+        </div>
+
+        <div class="mySlides fade">
+
+          <img src="https://images.unsplash.com/photo-1587368062478-e804f5e2a55a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FtcCUyMG5vdXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" style="width: 65%;">
+
+        </div>
+
+
+        </div>
+
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+
+
+        </div>
+</div>
+
+        <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000);
+        }
+        </script>
+
+    </body>
+
+    </html>
